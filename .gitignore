@@ -1,0 +1,16 @@
+# .gitignore
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# 由 gen_data.py 生成，体积大，可复现
+data/*.csv
+data/*.db
+
+# 每条 SQL 的执行结果，可复现
+output/sql_results/
+
+# 工具生成的临时目录
+.dsh-office-*/
+~$*
