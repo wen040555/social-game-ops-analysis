@@ -4,12 +4,14 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# 由 gen_data.py 生成，体积大，可复现
+# 由脚本生成，可复现，不入库
 data/*.csv
 data/*.db
+output/
+*.zip
 
-# 每条 SQL 的执行结果，可复现
-output/sql_results/
+# 个人笔记，不进公开仓库
+GitHub发布步骤.md
 
 # 工具生成的临时目录
 .dsh-office-*/
